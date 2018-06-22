@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/2/28 9:55:21。
+     1>项目“D:\Project\vs2013\OpenCVCameraDemo\OpenCVCameraDemo\OpenCVCameraDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing OpenCVCameraDemo.h...
+         Moc'ing CameraWidget.h...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\3rdParty\OpenCV2.4\include\opencv2 /I.\3rdParty\OpenCV2.4\include\opencv /I.\3rdParty\OpenCV2.4\include /I.\GeneratedFiles /I. /ID:\Qt\Qt5.6.2VS2013\5.6\msvc2013\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.6.2VS2013\5.6\msvc2013\include\QtCore /ID:\Qt\Qt5.6.2VS2013\5.6\msvc2013\include\QtGui /ID:\Qt\Qt5.6.2VS2013\5.6\msvc2013\include\QtWidgets /ID:\Qt\Qt5.6.2VS2013\5.6\msvc2013\include\QtMultimedia /ID:\Qt\Qt5.6.2VS2013\5.6\msvc2013\include\QtMultimediaWidgets /I.\3rdParty\OpenCV2.4 /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3rdParty\OpenCV2.4\CameraWidget.cpp GeneratedFiles\Release\moc_CameraWidget.cpp GeneratedFiles\Release\moc_OpenCVCameraDemo.cpp OpenCVCameraDemo.cpp main.cpp
+         CameraWidget.cpp
+         moc_CameraWidget.cpp
+         moc_OpenCVCameraDemo.cpp
+         OpenCVCameraDemo.cpp
+         main.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\vs2013\OpenCVCameraDemo\Win32\Release\\OpenCVCameraDemo.exe" /NOLOGO /LIBPATH:.\3rdParty\OpenCV2.4\lib /LIBPATH:D:\Qt\Qt5.6.2VS2013\5.6\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Project\vs2013\OpenCVCameraDemo\Win32\Release\OpenCVCameraDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\vs2013\OpenCVCameraDemo\Win32\Release\OpenCVCameraDemo.lib" /MACHINE:X86 /SAFESEH Release\CameraWidget.obj
+         Release\OpenCVPlayVedioPanel.obj
+         Release\qrc_OpenCVCameraDemo.obj
+         Release\moc_CameraWidget.obj
+         Release\moc_OpenCVCameraDemo.obj
+         Release\moc_OpenCVCameraWidget.obj
+         Release\moc_OpenCVPlayVedioPanel.obj
+         Release\main.obj
+         Release\OpenCVCameraDemo.obj
+         Release\OpenCVCameraWidget.obj
+         OpenCVCameraDemo.vcxproj -> D:\Project\vs2013\OpenCVCameraDemo\Win32\Release\OpenCVCameraDemo.exe
+     1>已完成生成项目“D:\Project\vs2013\OpenCVCameraDemo\OpenCVCameraDemo\OpenCVCameraDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.63

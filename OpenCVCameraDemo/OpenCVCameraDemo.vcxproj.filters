@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{1d0a7df9-69b7-479e-a584-0514946bdec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\OpenCV2.4">
+      <UniqueIdentifier>{7ad18406-bb08-41e6-ba33-95166a63a941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Debug">
+      <UniqueIdentifier>{b3e4d445-60bb-4224-b684-a8c44f9c10f7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Release">
+      <UniqueIdentifier>{d24a8819-f041-4d24-9cec-5f06fbdf2197}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCVCameraDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OpenCVCameraDemo.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OpenCVCameraDemo.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_OpenCVCameraDemo.cpp">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\OpenCV2.4\OpenCVPlayVedioPanel.cpp">
+      <Filter>3rdParty\OpenCV2.4</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OpenCVPlayVedioPanel.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OpenCVPlayVedioPanel.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OpenCVCameraWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OpenCVCameraWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCVCameraWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\OpenCV2.4\CameraWidget.cpp">
+      <Filter>3rdParty\OpenCV2.4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="OpenCVCameraDemo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenCVCameraDemo.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="3rdParty\OpenCV2.4\OpenCVPlayVedioPanel.h">
+      <Filter>3rdParty\OpenCV2.4</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenCVCameraWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenCVCameraWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenCVCameraDemo.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="3rdParty\OpenCV2.4\CameraWidget.h">
+      <Filter>3rdParty\OpenCV2.4</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_OpenCVCameraDemo.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\OpenCV2.4\Cvv_AllInclude.h">
+      <Filter>3rdParty\OpenCV2.4</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_OpenCVCameraWidget.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
